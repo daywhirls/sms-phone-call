@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 def voice():
     response = VoiceResponse()
-    response.say("Hello. You have reached David's secret phone line. Initiating phase two.")
+    response.say("Hello. You have reached David's secret phone line. Please hang up and await further instructions.")
     return str(response)
 
 if __name__ == '__main__':
